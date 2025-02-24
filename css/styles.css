@@ -1,1 +1,28 @@
 /*ini css external*/
+
+.logo-company{
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/seed/picsum/200/300);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+}
+
+nav > a {
+    border-radius: 4px;
+    border: 1px solid;
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: flex;
+}
