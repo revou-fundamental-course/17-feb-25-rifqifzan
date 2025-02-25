@@ -22,7 +22,47 @@ nav > a {
     border-radius: 4px;
     border: 1px solid;
     color: black;
-    padding: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-decoration: none;
     display: flex;
+}
+
+.home_border{
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.ourpackage_border{
+    border-radius: 0%;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.callus_border{
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+section{
+    display: flex;
+    gap: 24px;
+}
+
+.main-content{
+    border: 1px solid;
+    height: 400px;
+    flex: 1;
+    
+}
+
+.text-our-packages{
+    align-content: center;
+    
+    height: 100px;
+    width: initial;
+    text-align: center;
+    background-color: #FCDEC0;
 }
